@@ -63,10 +63,19 @@ First thing what have been done was preparing map with all crimes based on latit
 To make the bar chart I had to pull data on ‘category’. It became a little tricky trying to code into descending order, otherwise there were no major issues.
 From the data, we can see the largest category of crime is ‘violent crime’ followed by ‘vehicle crime’ over the 6-month period. The only significant variation seen is that ‘other theft’ has a higher number than ‘vehicle crime’ in Oct and Nov 2022. The website did not specify in further detail what other theft encompasses, which does add limitations to gauging a full picture of crime committed within the city centre. However, overall the statistics do give a good starting point for further investigation.
 
-Due to the limited number of key, value returns in the json pulled by the API, it was challenging trying to find what data could be used for another visualisation.
-I decided to look at the ‘outcome category’ and had to remove al null values before pulling the different categories of ‘outcome_status’. You can see from the key to the pie chart, there are seven different categories to the ‘outcome_status’ of police investigations.
-The pie chart clearly shows that West Midlands Police are struggling to find suspects, let alone solve perpetrators of crime. On average over the 6 months of data, 45.91% of crimes had ‘no suspect’ identified on completion of investigation. Thereafter, the largest percentage of outcome category was ‘unable to prosecute suspect’. We do not have the data to suggest why prosecution rates are so low, but having this data, I think, opens the door for further analysis on why rates of successful prosecution are so low.
-As this is publicly available data, we could apply this model to other city centres (and cities) throughout the country, just to get a comparative picture of crime and how successful the police are in finding the perpetrators of crime. This in turn would be useful to many areas within the public and private sectors.
+Due to the limited number of key/value returns in the json pulled by the API, it was challenging trying to find what data could be used for another visualisation.
+I decided to look at the ‘outcome_status’ key and had to remove all null values before pulling the different categories of ‘outcome_status’. You can see from the key to the pie chart, there are seven different categories to the ‘outcome_status’ of police investigations, which are….(read from dashboard).
+
+The pie chart clearly shows that West Midlands Police are struggling to find suspects, let alone solve perpetrators of crime.
+
+On average over the 6 months of data, 45.91% of crimes had ‘no suspect’ identified on completion of investigation. Thereafter, the largest percentage of outcome category was ‘unable to prosecute suspect’.
+
+We do not have the data to suggest why prosecution rates are so low, but having this data, I think, opens the door for further analysis on why rates of successful prosecution are so low.
+As this is publicly available data, we could apply this model to other city centers (and cities) throughout the country, just to get a comparative picture of crime and how successful the police are in finding or convicting the perpetrators of crime.
+
+This in turn would be useful to many areas within the public and private sectors. This data can be a steppingstone to investigating the causes and consequences of crime as well as impacts on victims. With such low prosecution rates, is the low level of successful convictions deterring people from reporting crime? If so, are the figures recorded a true reflection of crime in the city?
+
+Overall the data does show a clear picture that violent crime is a significant issue in the city center of Birmingham, in comparison to all other reported crimes.
 
 ## Why and how could use the data:
 
